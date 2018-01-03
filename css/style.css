@@ -53,3 +53,13 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+#items div{
+  display:inline-block;
+  padding: 25px;
+  color:black;
+  background: transparent;
+}
+footer{
+  color: black;
+  position: static;
+}

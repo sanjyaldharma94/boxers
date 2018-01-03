@@ -29,8 +29,8 @@ for(i= 0; i < boxerArr.length; i++){
 
 	var image = document.createElement("img")
 //image.setAttribute("src", "img/image1.jpg");
-//image.setAttribute("height", "100");
-//image.setAttribute("width", "100");
+image.setAttribute("height", "200");
+image.setAttribute("width", "200");
 //image.setAttribute("alt", "Iphone");
 	var  size = document.createElement("p")
 	var color = document.createElement("p")
