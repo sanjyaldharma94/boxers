@@ -1,8 +1,3 @@
-//creating a function to create  list of students of a classroom with their images
-function boxersShow() {
-  $("display").click(function(){
-    $("this").hide();
-});
 function boxersList(image, size, color, cost){
 this.image = image
 this.size = size
@@ -31,7 +26,7 @@ for(i= 0; i < boxerArr.length; i++){
 //image.setAttribute("src", "img/image1.jpg");
 image.setAttribute("height", "200");
 image.setAttribute("width", "200");
-//image.setAttribute("alt", "Iphone");
+//image.setAttribute("alt", "boxers");
 	var  size = document.createElement("p")
 	var color = document.createElement("p")
 	var cost = document.createElement("P")
@@ -70,7 +65,5 @@ image.setAttribute("width", "200");
 	 	console.log('this function ran!!');
 	 };
 
-	};
 
-//console.log the  array
-//console.log(iphoneArr);
+//console.log the  array;
